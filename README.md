@@ -3,9 +3,9 @@
 
 ## Integrantes
 
-Sharom Lizeth Cortes Reyes 
-Juan David Romero Perez
-Daniel Duarte Borhoquez
+Sharom Lizeth Cortes Reyes.
+Juan David Romero Perez.
+Daniel Duarte Borhoquez.
 
 ## Documentación
 
