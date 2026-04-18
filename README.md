@@ -31,15 +31,15 @@ A continuación, se detalla la función de cada nodo utilizado en el flujo de No
 ### Flujo de Datos
 El sistema opera bajo una arquitectura de flujo continuo dividida en tres etapas principales:
 
-1.  **Captura:** El proceso inicia cuando el usuario interactúa con la interfaz web y selecciona un color específico mediante el nodo **Color Picker**.
-2.  **Procesamiento:** El nodo **Function** intercepta el mensaje original, extrae los componentes RGB y los transforma en una cadena de texto formateada (ej. `R=255 G=0 B=0`).
-3.  **Salida:** La información procesada se distribuye simultáneamente a tres destinos:
-    * **Panel de Debug:** Para el monitoreo técnico y control de errores.
-    * **Nodo File:** Para el registro permanente en el sistema de archivos (puente con Python).
-    * **Text Input:** Para la visualización directa del resultado en el dashboard del usuario.
+1. Captura: El proceso inicia cuando el usuario interactúa con la interfaz web y selecciona un color específico mediante el nodo Color Picker.
+2. Procesamiento: El nodo Function intercepta el mensaje original, extrae los componentes RGB y los transforma en una cadena de texto formateada (ej. `R=255 G=0 B=0`).
+3.  Salida: La información procesada se distribuye simultáneamente a tres destinos:
+    * Panel de Debug: Para el monitoreo técnico y control de errores.
+    * Nodo File Para el registro permanente en el sistema de archivos (puente con Python).
+    * Text Input: Para la visualización directa del resultado en el dashboard del usuario.
 
 ### Notas de Configuración
-Un aspecto crítico durante el despliegue es la presencia de **triángulos rojos** sobre los nodos. Esto indica un error de configuración, usualmente relacionado con el Dashboard. Para corregirlo, se debe verificar que cada nodo de interfaz esté correctamente asignado a un **"Group"** (Grupo) y a un **"Tab"** (Pestaña) dentro del panel de configuración de Node-RED.
+Un aspecto crítico durante el despliegue es la presencia de triángulos rojos sobre los nodos. Esto indica un error de configuración, usualmente relacionado con el Dashboard. Para corregirlo, se debe verificar que cada nodo de interfaz esté correctamente asignado a un "Group" (Grupo) y a un "Tab" (Pestaña) dentro del panel de configuración de Node-RED.
 
 ---
 
