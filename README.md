@@ -40,7 +40,7 @@ El sistema opera bajo una arquitectura de flujo continuo dividida en tres etapas
 
 ---
 ## Flujo Node-RED
-![Flujo Node-RED](img/Node-Red)
+![Flujo Node-RED](img/Node-Red.JPEG)
 
 ## Conclusiones
 
