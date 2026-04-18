@@ -4,7 +4,6 @@
 ## Integrantes
 
 Sharom Lizeth Cortes Reyes,
-<<<<<<< HEAD
 Juan David Romero Perez,
 Daniel Duarte Borhoquez,
 Andres Javier Vargas Manrique.
