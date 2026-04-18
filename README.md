@@ -4,6 +4,7 @@
 ## Integrantes
 
 Sharom Lizeth Cortes Reyes,
+<<<<<<< HEAD
 Juan David Romero Perez,
 Daniel Duarte Borhoquez,
 Andres Javier Vargas Manrique.
@@ -15,7 +16,6 @@ Para la implementación, se realizó la instalación de Node-RED mediante una co
 
 ## Diagrama de flujo
 
-![Diagrama de flujo Node-RED]("C:\Users\lizeth reyes\Documents\ECCI\DECIMO SEMESTRE\SISTEMAS DIGITALES III\Lab04\lab04-sistemas3-g1-e12\Diagrama.png")
 
 ## Conclusiones
 * **Persistencia y Autonomía:** Al configurar Node-RED como un servicio del sistema (`systemd`), se logra que la aplicación sea independiente de la terminal de comandos, permitiendo que la Raspberry Pi actúe como un servidor IoT robusto y siempre disponible.
