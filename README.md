@@ -39,6 +39,8 @@ El sistema opera bajo una arquitectura de flujo continuo dividida en tres etapas
     * Text Input: Para la visualización directa del resultado en el dashboard del usuario.
 
 ---
+## Flujo Node-RED
+![Flujo Node-RED](img/Node-Red)
 
 ## Conclusiones
 
