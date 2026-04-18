@@ -14,7 +14,7 @@ El proyecto se basa en el ecosistema de Node.js, utilizando Node-RED como orques
 Para la implementación, se realizó la instalación de Node-RED mediante una conexión SSH, optimizando el uso de CPU y RAM de la Raspberry Pi. Se configuró el inicio automático del servicio mediante el comando `sudo systemctl enable nodered.service`, garantizando la persistencia del flujo tras reinicios. El flujo diseñado integra nodos de `dashboard` para la interfaz de usuario, un nodo `function` para el formateo de datos RGB y un nodo `file` que escribe los valores en el sistema de archivos, permitiendo que un script externo de Python lea y procese la información en tiempo real.
 
 ## Diagrama de flujo
-
+![Diagrama de flujo Node-RED](img/diagrama.png)
 
 ## Conclusiones
 * **Persistencia y Autonomía:** Al configurar Node-RED como un servicio del sistema (`systemd`), se logra que la aplicación sea independiente de la terminal de comandos, permitiendo que la Raspberry Pi actúe como un servidor IoT robusto y siempre disponible.
