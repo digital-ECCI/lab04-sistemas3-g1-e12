@@ -3,8 +3,11 @@
 ## Integrantes
 
 Sharom Lizeth Cortes Reyes,
+
 Juan David Romero Perez,
+
 Daniel Duarte Borhoquez,
+
 Andres Javier Vargas Manrique.
 
 ## Documentación
