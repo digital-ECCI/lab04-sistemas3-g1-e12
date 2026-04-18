@@ -38,9 +38,6 @@ El sistema opera bajo una arquitectura de flujo continuo dividida en tres etapas
     * Nodo File Para el registro permanente en el sistema de archivos (puente con Python).
     * Text Input: Para la visualización directa del resultado en el dashboard del usuario.
 
-### Notas de Configuración
-Un aspecto crítico durante el despliegue es la presencia de triángulos rojos sobre los nodos. Esto indica un error de configuración, usualmente relacionado con el Dashboard. Para corregirlo, se debe verificar que cada nodo de interfaz esté correctamente asignado a un "Group" (Grupo) y a un "Tab" (Pestaña) dentro del panel de configuración de Node-RED.
-
 ---
 
 ## Conclusiones
